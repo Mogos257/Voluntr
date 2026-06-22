@@ -10,6 +10,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-size: 2vw;
 }
 
 html{
@@ -26,26 +27,24 @@ body{
 nav{
     display:flex;
     align-items:center;
-    border-color: black;
+    border-color: red;
     border-width:2px;
     border-style: solid;
-    border-radius:0.5em;
-
-    
+    border-radius:0.5em;    
 }
 
 nav ul{
     display:inline-flex;
-    gap:2em;
     list-style-type:none; /*gets rid of the bullet points*/
-    align-items:center;
+    gap:3em;
+    margin-right:3em;
+    align-items:center; /*aligns it centered vertically*/
     justify-content: flex-end; /*aligns it on the right of the main axis*/
-     border-color: black;
+     margin-left:auto;
 }
 
 nav h1{
     display:inline;
-    margin-right: 5em;
 }
 
 nav a{
