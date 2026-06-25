@@ -51,7 +51,6 @@ nav a{
 }
 
 nav a:hover{
-    text-decoration:underline; 
     cursor:pointer;
 }
 
@@ -78,49 +77,4 @@ nav a:hover{
     width: 1.5em;
     height:2em;
     margin-left:1em;
-}
-
-.first_holder{
-    display:flex;
-    justify-content:left;
-    align-items:center;
-    width: 100%;
-    height: 80vh;
-    background-image: url('images/Volunteering.png');
-    background-repeat: no-repeat; /*only puts image once*/
-    background-size:cover; 
-    background-position: center;
-}
-
-.text h1{
-    color: rgb(255, 255, 6);
-    font-size: 3rem;
-}
-
-.quote_holder{
-    padding: 4rem 1rem;
-}
-
-#quote{
-    font-family: Chelsea Market;
-}
-
-.important_info{
-    display:flex;
-    align-items:center;
-    width:100%;
-    justify-content:center;
-}
-
-.important_info p{
-    font-size:0.7rem;
-}
-
-.important_info h2{
-    font-size: 0.8rem;
-    margin-bottom:0.5rem;
-}
-
-.important_info .first, .second, .third{
-   padding:2rem;
 }
