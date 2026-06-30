@@ -21,7 +21,7 @@ html{
 }
 
 body{
-    background-color: rgb(238, 239, 255);
+    background-color: rgb(238, 255, 243);
 }
 
 nav{
@@ -97,6 +97,7 @@ nav a:hover{
 
 .quote_holder{
     padding: 4rem 1rem;
+    text-align: center;
 }
 
 #quote{
@@ -136,8 +137,8 @@ nav a:hover{
 }
 
 .about_button{
-    background-color:rgb(90, 203, 255);
-    color: #ffffff;
+    background-color:rgb(69, 165, 0);
+    color: rgb(238, 239, 255);
     width: 5rem;
     height:2rem;
     border-radius: 30%;

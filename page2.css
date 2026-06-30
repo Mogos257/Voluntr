@@ -21,16 +21,17 @@ html{
 }
 
 body{
-    border-color: black;
-    border-width:2px;
-    border-style: solid;
     background-color: rgb(238, 239, 255);
+    margin-bottom:4rem;
 }
 
 nav{
     display:flex;
     align-items:center;
-    border-radius:0.5em;    
+    
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
 }
 
 nav ul{
@@ -56,7 +57,7 @@ nav a:hover{
 }
 
 .cta-button{
-     background-color: #fe7d14;
+    background-color: #fe7d14;
     color: white;
     border-radius:20%;
     width:6rem;
@@ -79,5 +80,132 @@ nav a:hover{
     width: 1.5em;
     height:2em;
     margin-left:1em;
+}
+
+.bulk{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+.preview{
+    margin-top:2rem;
+    width:80%;
+
+    border-color: black;
+    border-width:2px;
+    border-style: solid;
+
+    background-color:whitesmoke;
+}
+
+.top{
+    background-color:black;
+    width:100%;
+    height:2rem;
+    display:flex;
+    align-items: center;
+}
+
+.top h1{
+    color:grey;
+}
+
+.nav_preview{
+    display:flex;
+    align-items:center;
+    
+    border-color:black;
+    border-style:solid;
+    border-width:0.3px;
+    background-color:white;
+}
+
+.nav_preview ul{
+    display:inline-flex;
+    list-style-type:none; /*gets rid of the bullet points*/
+    gap:3em;
+    margin-right:3em;
+    align-items:center; /*aligns it centered vertically*/
+    justify-content: flex-end; /*aligns it on the right of the main axis*/
+     margin-left:auto;
+}
+
+.nav_preview h1{
+    display:inline;
+    color:rgb(26, 253, 162);
+    margin-left:1rem;
+}
+
+.nav_preview li{
+    color:grey;
+}
+
+.preview-button{
+    background-color: rgb(26, 253, 162);
+    color: white;
+    border-radius:20%;
+    width:6rem;
+    height:2.5rem;
+    border-color: black;
+    border-width:2px;
+    border-style: solid;
+    margin-left: 1em;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    margin:0.5rem 0.5rem 0.5rem 0rem
+}
+
+.first_holder{
+    margin-top:3rem;
+    
+}
+
+.first_holder h2, .second_holder h2{
+    font-size:2rem;
+}
+
+.first_holder p, .second_holder p{
+    margin-top:1rem;
+    color:grey;
+    font-size:0.9rem;
+}
+
+.search{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:1rem;
+}
+
+.bar{
+    width:80%;
+    height:2.5rem;
+    background-color:rgb(237, 237, 237);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    corner-shape:squircle;
+    border-width:1px;
+    border-style:solid;
+    border-color:grey;
+}
+
+#search_icon{
+    background-color: rgb(26, 253, 162);
+    color:white;
+    border-radius:35%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:2rem;
+    height:1.5rem;
+    margin-left:1rem;
+}
+
+.second_holder{
+    margin-top:8rem;
 }
 
