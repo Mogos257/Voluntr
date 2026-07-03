@@ -21,7 +21,7 @@ html{
 }
 
 body{
-    background-color: rgb(238, 239, 255);
+    background-color: rgb(242, 252, 254);
     margin-bottom:4rem;
 }
 
@@ -141,12 +141,13 @@ nav a:hover{
     color:grey;
 }
 
-.preview-button{
+.signUp-button{
     background-color: rgb(26, 253, 162);
     color: white;
     border-radius:20%;
-    width:6rem;
-    height:2.5rem;
+    width:fit-content;
+    height:fit-content;
+    padding: 0.75rem 1rem;
     margin-left: 1em;
     display:inline-flex;
     justify-content:center;
@@ -159,12 +160,14 @@ nav a:hover{
     
 }
 
-.first_holder h2, .second_holder h2{
+.first_holder h2, .second_holder h2, .third_holder h2{
     font-size:2rem;
+    margin-left:0.5rem;
 }
 
-.first_holder p, .second_holder p{
+.first_holder p, .second_holder p, .third_holder p{
     margin-top:1rem;
+    margin-left:0.75rem;
     color:grey;
     font-size:0.9rem;
 }
@@ -243,4 +246,25 @@ nav a:hover{
 .bread_descrip{
     width:100%;
     text-align:center;
+}
+
+.third_holder{
+    text-align:center;
+    margin-top:6rem;
+    margin-bottom:2rem;
+}
+
+.browse-button, .post-button{
+    background-color: rgb(26, 253, 162);
+    color: white;
+    border-radius:15%;
+    width:fit-content;
+    height:fit-content;
+    padding: 0.75rem 1rem;
+    margin-left: 1em;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2rem;
+
 }
