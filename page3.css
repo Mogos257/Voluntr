@@ -21,16 +21,17 @@ html{
 }
 
 body{
-    border-color: black;
-    border-width:2px;
-    border-style: solid;
+    
     background-color: rgb(238, 239, 255);
 }
 
 nav{
     display:flex;
     align-items:center;
-    border-radius:0.5em;    
+
+    border-color: black;
+    border-width:2px;
+    border-style: solid;
 }
 
 nav ul{
@@ -79,4 +80,32 @@ nav a:hover{
     width: 1.5em;
     height:2em;
     margin-left:1em;
+}
+
+.middle{
+    display:flex;
+    justify-content:center;
+    
+    height:10rem;
+    margin-top:2rem;
+}
+
+.form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:80%;
+   
+
+    border-color: black;
+    border-width:2px;
+    border-style: solid;
+    border-radius:20px;
+    background-color: white;
+}
+
+.form label{
+    display:block;
+    margin-bottom:0.5rem;
 }
